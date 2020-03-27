@@ -8,7 +8,7 @@ import {BrokerListPage} from './pages/broker-list/broker-list';
 import {FavoriteListPage} from './pages/favorite-list/favorite-list';
 import {PropertyService} from './services/property-service';
 import {BrokerService} from './services/broker-service';
-//import {MortgaePage} from './pages/MortageCalculator.html';
+import {MortgaePage} from './pages/MortageCalculator.html';
 
 @App({
     templateUrl: 'build/app.html',
@@ -34,8 +34,8 @@ class MyApp {
             {title: 'Welcome', component: WelcomePage, icon: "bookmark"},
             {title: 'Properties', component: PropertyListPage, icon: "home"},
             {title: 'Brokers', component: BrokerListPage, icon: "people"},
-            {title: 'Favorites', component: FavoriteListPage, icon: "star"}
-            //{title: 'Mortgage', component: MortgaePage, icon: "people"}
+            {title: 'Favorites', component: FavoriteListPage, icon: "star"},
+            {title: 'Mortgage', component: MortgaePage, icon: "people"}
         ];
 
         this.rootPage = WelcomePage;
