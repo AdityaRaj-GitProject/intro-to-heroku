@@ -12,5 +12,6 @@ export class MortgaePage {
     constructor(nav, navParams) {
         this.nav = nav;
     }
+    
 
 }
